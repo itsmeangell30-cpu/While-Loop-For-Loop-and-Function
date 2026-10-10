@@ -110,6 +110,7 @@ Enter the number for which you want the multiplication table: 5
 🔹 Formatted output
 
 ⚖️ Program 3: BMI Calculator Using Functions
+   
 📖 Description
 Calculates Body Mass Index (BMI) using a user-defined Python function.
 Accepts the user's weight in kilograms and height in meters.
