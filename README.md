@@ -51,7 +51,6 @@ while attempts > 0:
         print("Too high. Try again.")
     else:
         print("Too low. Try again.")
-
 else:
     print("Better luck next time! The correct number was", secret_number)
 
@@ -82,11 +81,13 @@ Calculates the product of the entered number and each loop value.
 Displays the multiplication table in a clear, readable format.
 
 💻 Python Code
+
 number = int(input("Enter the number for which you want the multiplication table: "))
 
 for i in range(1, 11):
     result = number * i
     print(number, "x", i, "=", result)
+
 
 🖥️ Sample Output
 Enter the number for which you want the multiplication table: 5
@@ -120,6 +121,7 @@ Displays the BMI rounded to two decimal places.
 BMI = Weight (kg) / Height (m)²
 
 💻 Python Code
+
 def calculate_bmi(weight, height):
     bmi = weight / (height ** 2)
     return bmi
@@ -130,10 +132,12 @@ height = float(input("Enter your height in meters: "))
 bmi = calculate_bmi(weight, height)
 
 print("Your BMI is:", format(bmi, ".2f"))
+
 🖥️ Sample Output
 Enter your weight in kg: 58
 Enter your height in meters: 1.62
 Your BMI is: 22.10
+
 🧠 Concepts Learned
 🔹 Defining functions with def
 🔹 Function parameters and arguments
@@ -141,6 +145,7 @@ Your BMI is: 22.10
 🔹 Floating-point input using float()
 🔹 Mathematical calculations and exponentiation
 🔹 Formatting decimal output
+
 🛠️ Technologies Used
 🐍 Python 3
 📓 Jupyter Notebook or any Python IDE
